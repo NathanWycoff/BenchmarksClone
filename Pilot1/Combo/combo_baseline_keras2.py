@@ -832,12 +832,12 @@ def run(params):
     return history
 
 
-def main():
-    params = initialize_parameters()
-    run(params)
-
-
-if __name__ == '__main__':
-    main()
-    if K.backend() == 'tensorflow':
-        K.clear_session()
+#def main():
+#    params = initialize_parameters()
+#    run(params)
+#
+#
+#if __name__ == '__main__':
+#    main()
+#    if K.backend() == 'tensorflow':
+#        K.clear_session()
